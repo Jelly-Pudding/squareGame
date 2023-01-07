@@ -133,8 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 371373230}
   - component: {fileID: 371373229}
-  - component: {fileID: 371373228}
   - component: {fileID: 371373231}
+  - component: {fileID: 371373232}
   m_Layer: 0
   m_Name: Your_Square
   m_TagString: Untagged
@@ -142,18 +142,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &371373228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371373227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dc0dc0843ee46c47b141eb2382ebb0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &371373229
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -235,6 +223,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 3365002897000836468, guid: 9224f60bc8c68d848a64ebc1ade92953, type: 3}
   shootForce: 15
+--- !u!114 &371373232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371373227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f529b36bf4ca64bb30748fe869100f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Position: topLeft
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

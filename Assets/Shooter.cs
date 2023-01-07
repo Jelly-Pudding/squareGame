@@ -4,7 +4,7 @@ public class Shooter : MonoBehaviour
 {
     // Public field for the ball prefab
     public GameObject ballPrefab;
-    public float shootForce = 5; // The distance of the walls from the camera
+    public float shootForce = 5f;
 
     // Update is called once per frame
     void Update()
