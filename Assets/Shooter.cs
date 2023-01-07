@@ -4,6 +4,7 @@ public class Shooter : MonoBehaviour
 {
     // Public field for the ball prefab
     public GameObject ballPrefab;
+    public float shootForce = 5; // The distance of the walls from the camera
 
     // Update is called once per frame
     void Update()
@@ -33,7 +34,6 @@ public class Shooter : MonoBehaviour
 
         // Set the ball's velocity and gravity scale
         Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
-        rb.velocity = direction * 10;
-        rb.gravityScale = 0;
+        rb.velocity = direction * shootForce;
     }
 }

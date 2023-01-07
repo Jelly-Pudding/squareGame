@@ -234,6 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 3365002897000836468, guid: 9224f60bc8c68d848a64ebc1ade92953, type: 3}
+  shootForce: 15
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,10 +528,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 427808904821699964, guid: 9224f60bc8c68d848a64ebc1ade92953, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: f07df68e017dc5344a86586b56e8554e, type: 2}
     - target: {fileID: 3193148857310381924, guid: 9224f60bc8c68d848a64ebc1ade92953, type: 3}
       propertyPath: m_RootOrder
       value: 3
